@@ -22,8 +22,11 @@
         <h1>Javier's Journal Entries</h1>
 
         <img class="star-wars"
-            src="/Battle-of-Endor.jpg"
+            src="./Battle-of-Endor.jpg"
             alt="I love Star Wars!">
+        <audio
+            controls
+            src="./star-wars-theme-song.mp3"></audio>
 
         <section>
             <h2 id="Monday">Day 1: Monday</h2>
@@ -82,9 +85,9 @@
             </ul>
 
             <main role="day 2 paragraph">
-                <p>Tuesday went pretty well. Found a good 
+                <p>Tuesday went pretty well. Found a productive 
                     <span class="product">monitor</span> on offer 
-                    up for a pretty good deal. Woke up early to get it 
+                    up for a pretty productive deal. Woke up early to get it 
                     and it works great! 
                     Remember: <strong>always meet in a public place</strong>
                 </p>
@@ -127,5 +130,78 @@
                 </p>
             </main>
         </section>
+
+        <h3>Heres a random video:</h3>
+        <video controls width="250">
+            <source src="./Godzilla Drop Kick.mp4"
+                    type="video/mp4">
+        </video>
+        <details>
+            <summary>Why don't scientists trust atoms?</summary>
+            Because they make up everything
+        </details>
+        <br>
+
+        <p>Add a new Entry:</p>
+        <form>
+            <fieldset>
+                <div>
+                    <p>Enter date of entry:</p>
+                    <input type="date" id="entrydate" name="entrydate">
+                </div>
+                <div>
+                    <p>Title of Entry:</p>
+                    <input type="text" id="entrytitle" name="entrytitle">
+                </div>
+                <div>
+                    <p>Click all that apply:</p>
+                    <input type="checkbox" id="productive" name="productive">
+                    <label for="productive">It was a productive day</label>
+
+                    <input type="checkbox" id="money" name="money">
+                    <label for="money">I spent money today</label>
+                </div>
+                <div>
+                    <p>Was it a good day?</p>
+                    <input type="radio" id="good" name="good">
+                    <label for="good">Yes</label>
+                    <input type="radio" id="bad" name="bad">
+                    <label for="bad">No</label>
+                </div>
+                <div>
+                    <label for="daySummary">Give summary of your day:</label>
+                    <br>
+                    <textarea id="daySummary" name="daySummary" 
+                        rows="5" cols="33"></textarea>
+                </div>
+                <div>
+                    <label for="weather">How was the weather?</label>
+                    <br>
+                    <input list="weather-choices" id="weather" name="weather">
+                    
+                    <datalist id="weather-choices">
+                        <option value="Sunny"></option>
+                        <option value="Cloudy"></option>
+                        <option value="raining"></option>
+                        <option value="snowing"></option>
+                        <option value="hailing"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <label for="Location">Where did you spend your day?</label>
+                    <br>
+                    <select name="places" id="Location">
+                        <option value="">--Please choose an option--</option>
+                        <option value="Home">Home</option>
+                        <option value="School">School</option>
+                        <option value="Work">Work</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <button class="submit" type="button">
+                    Upload Entry
+                </button>
+            </fieldset>    
+        </form>
     </body>
 </html>
