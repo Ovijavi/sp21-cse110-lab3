@@ -1,6 +1,13 @@
 * {
     width: 90vw;
 }
+
+div.navigation {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
 #Tuesday {
     color: rgb(255, 0, 0);
 }
@@ -35,6 +42,22 @@ li{
 
 h3 {
     font-size: 1rem;
+}
+
+h3 + video {
+    width: 7in;
+}
+
+form > fieldset {
+    background-color: yellow;
+}
+
+fieldset * {
+    width: 7in;
+}
+
+h3 ~ p {
+    font-size: 1.5em;
 }
 
 a[href] {
