@@ -1,3 +1,6 @@
+* {
+    width: 90vw;
+}
 #Tuesday {
     color: rgb(255, 0, 0);
 }
@@ -8,4 +11,32 @@
 
 #videoTitle {
     color: hsl(148, 62%, 31%);
+}
+
+.star-wars {
+    width: 10cm;
+}
+
+audio {
+    width: 50mm;
+}
+
+form {
+    width: 7in;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+}
+
+li{
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+a[href] {
+    color: green;
 }
