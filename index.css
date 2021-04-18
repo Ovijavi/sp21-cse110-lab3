@@ -20,12 +20,16 @@ div.navigation {
     top: 20px;
     background-color: #eb36eb;
     z-index: 10;
+    display: block;
 }
 
 section {
     margin: 20px 20px 20px 20px;
     padding: 10px 10px 10px 10px;
-    display: block;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #Tuesday {
@@ -92,6 +96,8 @@ form > fieldset {
 fieldset * {
     width: 7in;
     text-align: center;
+    display: grid;
+    grid-template-columns:  40px 50ox auto 50px 40px;
 }
 
 h3 ~ p {
