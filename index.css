@@ -11,6 +11,7 @@ div.navigation {
 section {
     margin: 20px 20px 20px 20px;
     padding: 10px 10px 10px 10px;
+    display: block;
 }
 
 #Tuesday {
@@ -38,6 +39,7 @@ audio {
 
 form {
     width: 7in;
+    display: inline;
 }
 
 h1, h2, h3 {
