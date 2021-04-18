@@ -1,16 +1,21 @@
+/* make all elements 90 percent of the screen*/
 * {
     width: 90vw;
     max-width: 100in;
     min-width: 5in;
 }
 
+/*add hover effect on links*/
 a:hover {
     background-color: cyan;
 }
+
+/*underline summary text when clicked*/
 p:active {
     text-decoration: underline;
 }
 
+/*navigation tab now follows you through the page*/
 div.navigation {
     border-width: 2px;
     border-color: black;
@@ -23,6 +28,7 @@ div.navigation {
     display: block;
 }
 
+/*formating for the journal entries*/
 section {
     margin: 20px 20px 20px 20px;
     padding: 10px 10px 10px 10px;
@@ -32,51 +38,62 @@ section {
     justify-content: center;
 }
 
+/*color Tuesday with color red*/
 #Tuesday {
     color: rgb(255, 0, 0);
 }
 
+/*color wednesday with purple*/
 #Wednesday {
     color: #800080;
 }
 
+/*Underline video header and color it*/
 #videoTitle {
     color: hsl(148, 62%, 31%);
     text-decoration: underline;
 }
 
+/*formating for star wars picture*/
 .star-wars {
     width: 10cm;
     padding-left: 30px;
     padding-right: 30px;
 }
 
+/*width for audio bar*/
 audio {
     width: 50mm;
 }
 
+/*formating for form*/
 form {
     width: 7in;
     display: inline;
 }
 
+/*apply font and centering on all headers*/
 h1, h2, h3 {
     font-family: 'Zen Dots';
     text-align: center;
 }
 
+/*underline h1 and h2 headers*/
 h1, h2 {
     text-decoration: underline;
 }
 
+/*make list items larger than list header*/
 li{
     font-size: 1.3em;
 }
 
+/*font size for h3 elements*/
 h3 {
     font-size: 1rem;
 }
 
+/*if media is screen, apply video formating*/
 @media screen {
     h3 + video {
         width: 7in;
@@ -86,16 +103,18 @@ h3 {
     }
 }
 
-
+/*make indent above joke*/
 #joke {
     margin-top: 1cm;
 }
 
+/*make form background yellow*/
 form > fieldset {
     background-color: yellow;
     margin-top: 1em;
 }
 
+/*formatting for all elements in fieldset*/
 fieldset * {
     width: 7in;
     text-align: center;
@@ -103,10 +122,12 @@ fieldset * {
     grid-template-columns:  40px 50ox auto 50px 40px;
 }
 
+/*font size for all paragraphs after h3 header*/
 h3 ~ p {
     font-size: 1.5em;
 }
 
+/*make all links green*/
 a[href] {
     color: green;
 }
