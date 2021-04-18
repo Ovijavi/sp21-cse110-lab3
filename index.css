@@ -4,6 +4,13 @@
     min-width: 5in;
 }
 
+a:hover {
+    background-color: cyan;
+}
+p:active {
+    text-decoration: underline;
+}
+
 div.navigation {
     border-width: 2px;
     border-color: black;
