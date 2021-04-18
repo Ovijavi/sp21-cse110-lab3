@@ -1,5 +1,7 @@
 * {
     width: 90vw;
+    max-width: 100in;
+    min-width: 5in;
 }
 
 div.navigation {
