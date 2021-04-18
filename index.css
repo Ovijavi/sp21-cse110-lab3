@@ -8,6 +8,11 @@ div.navigation {
     border-style: solid;
 }
 
+section {
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
+
 #Tuesday {
     color: rgb(255, 0, 0);
 }
@@ -22,6 +27,8 @@ div.navigation {
 
 .star-wars {
     width: 10cm;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 audio {
@@ -46,10 +53,17 @@ h3 {
 
 h3 + video {
     width: 7in;
+    margin: auto;
+}
+
+#joke {
+    margin-top: 1cm;
+    margin: <left>;
 }
 
 form > fieldset {
     background-color: yellow;
+    margin-top: 1em;
 }
 
 fieldset * {

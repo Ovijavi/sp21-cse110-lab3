@@ -137,13 +137,13 @@
             <source src="./Godzilla-Drop-Kick.mp4"
                     type="video/mp4">
         </video>
-        <details>
+        <details id="joke">
             <summary>Why don't scientists trust atoms?</summary>
             Because they make up everything
         </details>
         <br>
 
-        <p>Add a new Entry:</p>
+        <p id="formTitle">Add a new Entry:</p>
         <form>
             <fieldset>
                 <div>
@@ -156,18 +156,20 @@
                 </div>
                 <div>
                     <p>Click all that apply:</p>
-                    <input type="checkbox" id="productive" name="productive">
                     <label for="productive">It was a productive day</label>
-
-                    <input type="checkbox" id="money" name="money">
+                    <input type="checkbox" id="productive" name="productive">
+                    
                     <label for="money">I spent money today</label>
+                    <input type="checkbox" id="money" name="money">
+                    
                 </div>
                 <div>
                     <p>Was it a good day?</p>
-                    <input type="radio" id="good" name="good">
                     <label for="good">Yes</label>
-                    <input type="radio" id="bad" name="bad">
+                    <input type="radio" id="good" name="good">
                     <label for="bad">No</label>
+                    <input type="radio" id="bad" name="bad">
+                    
                 </div>
                 <div>
                     <label for="daySummary">Give summary of your day:</label>
