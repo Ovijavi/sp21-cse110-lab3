@@ -8,6 +8,11 @@ div.navigation {
     border-width: 2px;
     border-color: black;
     border-style: solid;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    background-color: #eb36eb;
+    z-index: 10;
 }
 
 section {
@@ -64,6 +69,8 @@ h3 {
 h3 + video {
     width: 7in;
     margin: auto;
+    position: relative;
+    left: 1in;
 }
 
 #joke {
