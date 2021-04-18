@@ -77,15 +77,12 @@ h3 {
     font-size: 1rem;
 }
 
-@media screen {
-    h3 + video {
-        width: 7in;
-        margin: auto;
-        position: relative;
-        left: 1in;
-    }
+h3 + video {
+    width: 7in;
+    margin: auto;
+    position: relative;
+    left: 1in;
 }
-
 
 #joke {
     margin-top: 1cm;
